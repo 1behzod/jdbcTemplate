@@ -13,7 +13,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-jdbc.version>5.3.12</spring-jdbc.version>
-<!--        <postgresql.version>42.2.23</postgresql.version>-->
+        <!--        <postgresql.version>42.2.23</postgresql.version>-->
         <spring-context.version>5.3.12</spring-context.version>
     </properties>
 
@@ -28,7 +28,7 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.7.4</version>
-<!--            <version>${postgresql.version}</version>-->
+            <!--            <version>${postgresql.version}</version>-->
         </dependency>
 
         <dependency>
@@ -36,6 +36,11 @@
             <artifactId>spring-context</artifactId>
             <version>${spring-context.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
